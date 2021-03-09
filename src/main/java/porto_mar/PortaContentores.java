@@ -21,6 +21,7 @@ public class PortaContentores extends Navio {
     
     
 
+    @Override
     public int getMaxContentores() {
         return maxContentores;
     }
