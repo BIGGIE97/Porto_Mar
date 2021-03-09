@@ -29,7 +29,7 @@ public class Porto {
         String matricula= n.getMatricula_Navio();
         if(this.navios.get(matricula)==null){
             this.navios.put(matricula, n);
-        }else throw new Exception("Navio com matricula já existente");
+        }else throw new Exception("Navio com matricula já existente (" + matricula + ")." );
         }
     
 
