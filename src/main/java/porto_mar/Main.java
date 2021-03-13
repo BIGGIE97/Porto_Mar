@@ -6,11 +6,28 @@
 package porto_mar;
 
 /**
- *
+ *Este programa implementa uma solução para o registo de navios num porto de
+mar, que nos retorna no ecrã:
+* <p>
+* •A quantidade máxima total de contentores de todos os navios porta contentores
+atracados no porto;
+* <p>
+* • A capacidade total de carga de todos os navios porta contentores e petroleiros
+atracados no porto, sabendo que um contentor tem capacidade para 10 toneladas;
+ *<p>
+ * 
+ * Cria também um porto com um navio petroleiro e um navio porta contentores, garantindo
+ * que as matrículas dos navios não se repetem.
+ * 
+ * 
+ * 
  * @author diogo
+ * @version 2.0
+ * @since 09/03/2021
  */
 public class Main {
 
+   
     public static void main(String[] args) {
 
         try {

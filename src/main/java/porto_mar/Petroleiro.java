@@ -6,7 +6,8 @@
 package porto_mar;
 
 /**
- *
+ * Implementação da classe Petroleiro que extende a classe abstrata Navio.
+ * <p>
  * @author diogo
  */
 public class Petroleiro extends Navio {
@@ -26,7 +27,18 @@ public class Petroleiro extends Navio {
         return capacidade_carga;
     }
 
+   /**
+     * Método setter para o número de contentores num Navio.
+     * @param capacidade_carga Capacidade de carga de um Navio.
+     */
     public void setCapacidade_carga(float capacidade_carga) {
         this.capacidade_carga = capacidade_carga;
     }
+    
+    @Override
+    public String toString(){
+        return super.toString()+ " tipo de navio: Petroleiro " + "capaciade de carga(toneladas): " + capacidade_carga;
+    }
+    
+    
 }
